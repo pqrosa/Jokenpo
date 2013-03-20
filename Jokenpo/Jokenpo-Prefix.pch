@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Jokenpo' target in the 'Jokenpo' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
