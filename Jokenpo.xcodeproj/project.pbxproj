@@ -13,6 +13,9 @@
 		37B47CB216FA5786005FFFB9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 37B47CB016FA5786005FFFB9 /* Credits.rtf */; };
 		37B47CB516FA5786005FFFB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B47CB416FA5786005FFFB9 /* AppDelegate.m */; };
 		37B47CB816FA5786005FFFB9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37B47CB616FA5786005FFFB9 /* MainMenu.xib */; };
+		37B47CC016FA59A5005FFFB9 /* Jogador.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B47CBF16FA59A5005FFFB9 /* Jogador.m */; };
+		37B47CC516FA877B005FFFB9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 37B47CC416FA877B005FFFB9 /* README.md */; };
+		37C47BD816FA947F00ABBB4B /* Jogo.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C47BD716FA947F00ABBB4B /* Jogo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,11 @@
 		37B47CB316FA5786005FFFB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37B47CB416FA5786005FFFB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		37B47CB716FA5786005FFFB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		37B47CBE16FA59A5005FFFB9 /* Jogador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jogador.h; sourceTree = "<group>"; };
+		37B47CBF16FA59A5005FFFB9 /* Jogador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jogador.m; sourceTree = "<group>"; };
+		37B47CC416FA877B005FFFB9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		37C47BD616FA947F00ABBB4B /* Jogo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jogo.h; sourceTree = "<group>"; };
+		37C47BD716FA947F00ABBB4B /* Jogo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jogo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +90,12 @@
 		37B47CA716FA5786005FFFB9 /* Jokenpo */ = {
 			isa = PBXGroup;
 			children = (
+				37C47BD616FA947F00ABBB4B /* Jogo.h */,
+				37C47BD716FA947F00ABBB4B /* Jogo.m */,
 				37B47CB316FA5786005FFFB9 /* AppDelegate.h */,
 				37B47CB416FA5786005FFFB9 /* AppDelegate.m */,
+				37B47CBE16FA59A5005FFFB9 /* Jogador.h */,
+				37B47CBF16FA59A5005FFFB9 /* Jogador.m */,
 				37B47CB616FA5786005FFFB9 /* MainMenu.xib */,
 				37B47CA816FA5786005FFFB9 /* Supporting Files */,
 			);
@@ -93,6 +105,7 @@
 		37B47CA816FA5786005FFFB9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37B47CC416FA877B005FFFB9 /* README.md */,
 				37B47CA916FA5786005FFFB9 /* Jokenpo-Info.plist */,
 				37B47CAA16FA5786005FFFB9 /* InfoPlist.strings */,
 				37B47CAD16FA5786005FFFB9 /* main.m */,
@@ -156,6 +169,7 @@
 				37B47CAC16FA5786005FFFB9 /* InfoPlist.strings in Resources */,
 				37B47CB216FA5786005FFFB9 /* Credits.rtf in Resources */,
 				37B47CB816FA5786005FFFB9 /* MainMenu.xib in Resources */,
+				37B47CC516FA877B005FFFB9 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +182,8 @@
 			files = (
 				37B47CAE16FA5786005FFFB9 /* main.m in Sources */,
 				37B47CB516FA5786005FFFB9 /* AppDelegate.m in Sources */,
+				37B47CC016FA59A5005FFFB9 /* Jogador.m in Sources */,
+				37C47BD816FA947F00ABBB4B /* Jogo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +319,7 @@
 				37B47CBD16FA5786005FFFB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
